@@ -1,70 +1,27 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    /* background-color: #0a1424; */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1198%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1199)'%3e%3c/rect%3e%3cpath d='M874.9745971560197 264.4063696999391L727.5850065992629 201.84320033715088 665.0218372364748 349.2327908939077 812.4114277932315 411.79596025669593z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M59.35 5.18 a168.09 168.09 0 1 0 336.18 0 a168.09 168.09 0 1 0 -336.18 0z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-30.92 520.24 a134.48 134.48 0 1 0 268.96 0 a134.48 134.48 0 1 0 -268.96 0z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M557.419053274785 397.34726564966144L684.8073217500335 438.73822314627506 726.1982792466472 311.3499546710266 598.8100107713987 269.95899717441296z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M381.61523816236746-89.00229861113431L256.80307206785864-22.638492712584906 323.16687796640804 102.17367338192392 447.97904406091686 35.80986748337452z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M904.1192114988537 233.92345593396917L927.0885538144965 179.81107649824645 834.435313503091 172.41325274264364z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M890.9358416111917 28.660365453407387L829.0847493742258 105.0401033854237 974.5799023907332 159.6268727748643z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M749.9045287658116 143.78497269926038L654.332425795538 226.86453431652598 737.4119874128037 322.4366372867995 832.9840903830773 239.3570756695339z' fill='rgba(2%2c 101%2c 255%2c 0.15)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1198'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='50%25' x2='0%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1199'%3e%3cstop stop-color='rgba(26%2c 54%2c 84%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(13%2c 27%2c 47%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+#root{
+    width: 100%;
+    height: 100vh;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+*::-webkit-scrollbar{
+    width: 5px;
+    height: 10px;
 }
-a:hover {
-  color: #535bf2;
+*::-webkit-scrollbar-track{
+    background-color: #0a1424;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+*::-webkit-scrollbar-thumb{
+    background-color: #16204a;
+    border-radius: 5px;
 }
