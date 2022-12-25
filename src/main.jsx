@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "habilidades",
+    path: "/habilidades",
     element: <Habilidades />,
     errorElement: <ErrorPage />
   },
