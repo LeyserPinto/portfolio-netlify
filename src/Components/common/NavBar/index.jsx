@@ -22,7 +22,7 @@ const Nav = () => {
       </div>
       <div className='header-r-side'>
                 <ul>
-                    <li className='no-menu'><a href="/habilidades">Habilidades</a></li>
+                    <li className='no-menu'><a href="habilidades">Habilidades</a></li>
                     <li className='no-menu'><a href="/projetos">Projetos</a></li>
                     <li className='no-menu'><a href="/sobre-mim">Sobre mim</a></li>
                     <li className='fBars' onClick={()=> expandsidenav()}><a href="#"><FaBars /></a></li>
@@ -36,9 +36,9 @@ const Nav = () => {
       </div>
       <div className="centerSection">
       <ul>
-                    <li className='no-menu'><a href="habilidades">Habilidades</a></li>
-                    <li className='no-menu'><a href="projetos">Projetos</a></li>
-                    <li className='no-menu'><a href="sobre-mim">Sobre mim</a></li>
+                    <li className='no-menu'><a href="/habilidades">Habilidades</a></li>
+                    <li className='no-menu'><a href="/projetos">Projetos</a></li>
+                    <li className='no-menu'><a href="/sobre-mim">Sobre mim</a></li>
                 </ul>
       </div>
     </MobileNav>
