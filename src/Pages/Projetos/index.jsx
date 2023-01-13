@@ -27,6 +27,14 @@ const Projetos = () => {
                 
             </section>
           </div>
+        <p className='content-subtitle'>Testes</p>
+          <div className='content-container-layout'>
+            <section className='content'>
+                <ProjectItem link={'https://leyserpinto.github.io/react-google-login/'} web={'React Google Login'} lang={'React JS + Axios'}/>
+                
+                
+            </section>
+          </div>
     </div>
     </MainView>
     <Footer pnumber={'03'} pname={'Projetos'} />
